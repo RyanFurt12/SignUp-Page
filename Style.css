@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-shadow: 1px 1px 10px hsla(0, 0%, 0%, 0.1);
+  transition: 0.5s;
+  outline: none;
+  border: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.central {
+  width: 944px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 5px 5px 15px;
+  overflow: hidden;
+}
+
+.esquerda {
+  background-color: #72ecaa;
+  width: 35%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+}
+
+.logo {
+  margin-left: 15%;
+  margin-bottom: 10vh;
+  margin-top: 5vh;
+  align-self: flex-start;
+  font-size: 20pt;
+  display: flex;
+  flex-direction: row;
+  font-weight: 300;
+}
+
+.logo h1 {
+  font-size: 20pt;
+  font-weight: 2000;
+}
+
+.bem-vindo {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: 12pt;
+}
+
+.bem-vindo h2 {
+  font-size: 25pt;
+}
+
+.login {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10pt;
+  margin-bottom: 8vh;
+}
+
+.entrar {
+  padding: 5px 50px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 100vh;
+  outline: solid white;
+  margin-bottom: 15px;
+  font-size: 15pt;
+}
+
+.esqueci {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.entrar:hover {
+  scale: 1.1;
+  text-shadow: 0 0 5px 5px white;
+  box-shadow: 0 0 5px 5px white;
+}
+
+.entrar:active {
+  scale: 1;
+  text-shadow: 0 0 0px 0px white;
+  box-shadow: 0 0 0px 0px white;
+  background-color: white;
+  color: #72ecaa;
+  transition: 0.2s;
+}
+
+.esqueci:hover {
+  scale: 1.1;
+  text-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+.esqueci:active {
+  scale: 1;
+  text-shadow: 0 0 5px 5px rgb(0, 0, 0);
+  transition: 0.2s;
+}
+
+.direita {
+  width: 65%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.cadastro {
+  color: #72ecaa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cadastro h2 {
+  font-size: 20pt;
+}
+
+.cadastro p {
+  font-size: 12pt;
+  color: #7c7c7c;
+  margin-bottom: 5vh;
+}
+
+.input {
+  background-color: #f5f5f5;
+  color: #7c7c7c;
+  width: 80%;
+  border-radius: 10px;
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.input label {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input input {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+}
+
+.input input:focus {
+  border-bottom: 2px solid #72ecaa;
+}
+
+button {
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 5vh;
+  font-size: 15pt;
+  color: white;
+  background-color: #72ecaa;
+  border-radius: 100vh;
+  padding: 15px 60px;
+  cursor: pointer;
+}
+
+button:hover {
+  scale: 1.1;
+  box-shadow: 0 0 5px 5px #72ecab75;
+}
+
+button:active {
+  scale: 1;
+  box-shadow: 0 0 0px 0px;
+  transition: 0.2;
+}
